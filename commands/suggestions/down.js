@@ -72,7 +72,10 @@ module.exports = {
 			});
 			index++;
 		}
-		if (!embedArray[0]) return message.channel.send(string(locale, "NO_SUGGESTIONS_FOUND", {}, "error"));
+		if (!embedArray[0]) {
+			await message.channel.stopTyping(true);
+			return message.channel.send(string(locale, "NO_SUGGESTIONS_FOUND", {}, "error"));
+		}
 
 		if (!qServerDB.flags.includes("LARGE") && !qServerDB.flags.includes("MORE_TOP")) {
 			let embed = new Discord.MessageEmbed()
