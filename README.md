@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://discord.com/invite/G5pEdUp" target="_blank">
-    <img src="https://canary.discord.com/api/guilds/566002482166104066/widget.png" alt="Discord Server" />
+    <img src="https://img.shields.io/discord/566002482166104066?label=Discord" alt="Discord Server" />
   </a>
   <a href="https://github.com/Suggester/Suggester/releases" target="_blank">
     <img src="https://img.shields.io/github/release/Suggester/Suggester.svg" alt="Latest Release" />
