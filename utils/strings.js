@@ -5133,6 +5133,16 @@ module.exports = {
 				}
 			}
 		},
+		"DOCS_INFO": {
+			string: "You can find Suggester's official documentation at {{link}}",
+			context: "Sends the link to Suggester's documentation website",
+			replaced: {
+				link: {
+					to_replace: "{{link}}",
+					description: "The link to the docs"
+				}
+			}
+		},
 		"SERVER_PREFIX": {
 			string: "My prefix is `{{prefix}}`, you can also just mention the bot like \"<@{{id}}> help\"",
 			context: "Shows the configured prefix",

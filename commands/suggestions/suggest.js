@@ -15,7 +15,7 @@ module.exports = {
 	controls: {
 		name: "suggest",
 		permission: 10,
-		aliases: ["submit"],
+		aliases: ["submit", "suggestion"],
 		usage: "suggest [suggestion]",
 		description: "Submits a suggestion",
 		image: "images/Suggest.gif",

@@ -7,7 +7,7 @@ module.exports = {
 		name: "info",
 		permission: 3,
 		usage: "info [suggestion id]",
-		aliases: ["details", "suggestion"],
+		aliases: ["details"],
 		description: "Shows information about a suggestion",
 		image: "images/Info.gif",
 		enabled: true,
