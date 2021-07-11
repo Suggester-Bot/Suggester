@@ -14,7 +14,7 @@
     "axios": "^0.21.1",
     "blapi": "^1.4.0",
     "chalk": "^4.1.0",
-    "color-string": "^1.5.4",
+    "color-string": "^1.5.5",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "form-data": "^3.0.0",
